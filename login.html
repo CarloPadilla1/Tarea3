@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <header>
+        <h1>Iniciar Sesión</h1>
+    </header>
+    <div class="container">
+        <div class="login-box">
+            <h2>Inicio de Sesión</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre de Invocador:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="recordar">Recordar Contraseña:</label>
+                    <input type="checkbox" id="recordar" name="recordar"> 
+                </div>
+
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+    </div>
+    <footer>
+        &copy; EANSpiegel - Todos los derechos reservados
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
